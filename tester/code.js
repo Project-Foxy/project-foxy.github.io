@@ -43,8 +43,3 @@ forever(()=>{
     obj.style.y = mouse_y
     obj.style.update("pointer")
 })
-
-requestAnimationFrame(()=>{
-    document.querySelector("html").requestFullscreen()
-})
-
